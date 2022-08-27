@@ -1,0 +1,83 @@
+.mainDiv{
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+}
+img{
+    cursor: pointer;
+}
+.banner{
+     width: 100%;
+     min-height: 100px;
+    
+    height: auto;
+ 
+}
+.title{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+   color: white;
+}
+.options{
+    color: red;
+    position: absolute;
+    width: 35%;
+    top: 5%;
+    left: 63%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    color: white;
+}
+.options>img{
+    width: 6%;
+height: 6%;
+margin-top: 5px;
+border-radius: 50%;
+}
+.logo{
+    position: absolute;
+    top: 7%;
+    left: 1.8%;
+    font-size: 30px;
+}
+.middleText{
+    font-size: 230%;
+    top: 35%;
+    left: 28%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+    position: absolute;
+    
+}
+.input{
+    width: 35%;
+    height: 50px;
+    border-radius: 8px;
+    
+    position: absolute;
+    top: 50%;
+   right: 33%;
+   padding-left: 15px;
+}
+.inspirations{
+  
+    color: black;  
+}
+.inspirationsOptions{
+
+color: black;
+
+}
+
+
+@media only screen and (max-width: 951px){
+  .options{
+    display: none;
+  }
+  
+}
