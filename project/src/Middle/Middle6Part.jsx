@@ -21,7 +21,7 @@ export default function Middle6Part() {
     },[])
     
     function getData(){
-       axios.get("http://localhost:3004/travel").then((res)=>setData(res.data))
+       axios.get("https://apitripoto.herokuapp.com/travel").then((res)=>setData(res.data))
     }
 
 
